@@ -131,6 +131,7 @@ def play():
     mixer.music.load(chose)
     mixer.music.play()
 
+
 def choseing():
     print("This is Kokal's music player!")
     print("\nPleace chose comand:\n\n1.For making playlist, tipe 'new'")
@@ -156,6 +157,7 @@ def choseing():
     else:
         "Bad input, Try again!"
     return False
+
 
 def main():
     exit = False
